@@ -1,13 +1,13 @@
-#import "@preview/basic-resume:0.2.9": *
+#import "../src/lib.typ": *
 
 // Put your personal information here, replacing mine
-#let name = "Stephen Xu"
-#let location = "San Diego, CA"
-#let email = "stxu@hmc.edu"
-#let github = "github.com/stuxf"
-#let linkedin = "linkedin.com/in/stuxf"
-#let phone = "+1 (xxx) xxx-xxxx"
-#let personal-site = "stuxf.dev"
+#let name = "(Hans) ONG You Yang"
+#let location = "Singaporean"
+#let email = "thehansong@gmail.com"
+#let github = "github.com/thehansong"
+#let linkedin = "linkedin.com/in/thehansong/"
+#let phone = "+65 9868 9019"
+#let personal-site = "thehansong.com"
 
 #show: resume.with(
   author: name,
@@ -40,47 +40,58 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
+
 == Education
 
 #edu(
-  institution: "Harvey Mudd College",
-  location: "Claremont, CA",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2027"),
-  degree: "Bachelor's of Science, Computer Science and Mathematics",
+  institution: "Singapore Institute of Technology & DigiPen Institute of Technology",
+  location: "Singapore & Redmond, WA",
+  dates: dates-helper(start-date: "Aug 2022", end-date: "Apr 2026"),
+  degree: "Bachelor's of Science, Computer Science in Real-Time Interactive Simulation (RTIS)",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
-- Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
-- Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
+// - Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
+// - Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
+
+#edu(
+  institution: "The Wharton School — University of Pennsylvania",
+  location: "Philadelphia, PA (Remote from Singapore)",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Oct 2025"),
+  degree: "Executive Education, Product Management and Strategy",
+
+  // Uncomment the line below if you want edu formatting to be consistent with everything else
+  // consistent: true
+)
 
 == Work Experience
 
 #work(
-  title: "Subatomic Shepherd and Caffeine Connoisseur",
-  location: "Atomville, CA",
-  company: "Microscopic Circus, Schrodinger's University",
+  company: "Uber Technologies, Inc.",
   dates: dates-helper(start-date: "May 2024", end-date: "Present"),
+  title: "AI Solutions Engineer",
+  location: "Singapore (Remote)",
 )
 - Played God with tiny molecules, making them dance to uncover the secrets of the universe
 - Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
 - Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
 
 #work(
-  title: "AI Wrangler and Code Ninja",
-  location: "Silicon Mirage, CA",
-  company: "Organic Stupidity Startup",
+  company: "GovTech Singapore",
   dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  title: "AI Engineer Intern",
+  location: "Singapore",
 )
 - Taught robots to predict when (and how much!) humans will empty their wallets at the doctor's office
 - Developed HIPAA-compliant digital signatures, because doctors' handwriting wasn't illegible enough already
 - Turned spaghetti code into a gourmet dish, making other interns drool with envy
 
 #work(
-  title: "Digital Playground Architect",
-  location: "The Cloud",
-  company: "Pixels & Profit Interactive",
-  dates: dates-helper(start-date: "Jun 2020", end-date: "May 2023"),
+  company: "GovTech Singapore",
+  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  title: "Full-Stack Software Engineer Intern",
+  location: "Singapore",
 )
 - Scaled user base from 10 to 2000+, accidentally becoming a small wealthy nation in the process
 - Crafted Bash scripts so clever they occasionally made other engineers weep with joy
@@ -88,10 +99,10 @@
 - Built a documentation site that actually got read, breaking the ancient RTFM curse
 
 #work(
-  title: "Code Conjurer Intern",
-  location: "Silicon Suburb, CA",
-  company: "Bits & Bytes Consulting",
-  dates: dates-helper(start-date: "Jun 2022", end-date: "Aug 2022"),
+  company: "Stealth Startup (Fintech)",
+  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  title: "Software Engineer Intern",
+  location: "San Francisco, CA",
 )
 - Developed a cross-platform mobile app that turned every user into a potential paparazzi
 - Led a security overhaul, heroically saving the company from the menace of "password123"
@@ -99,9 +110,9 @@
 == Projects
 
 #project(
-  name: "Hyperschedule",
+  name: "NeuroTune",
   // Role is optional
-  role: "Maintainer",
+  role: "Co-developer",
   // Dates is optional
   dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   // URL is also optional
@@ -110,6 +121,9 @@
 - Maintain open-source scheduler used by 7000+ users at the Claremont Consortium with TypeScript, React and MongoDB
   - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
 - Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
+
+
+
 
 == Leadership
 

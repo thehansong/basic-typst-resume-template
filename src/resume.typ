@@ -162,9 +162,9 @@
     // original edu style (location top-right, dates bottom-right)
     generic-two-by-two(
       top-left: strong(institution),
-      top-right: location,
-      bottom-left: emph(degree),
-      bottom-right: emph(dates),
+      top-right: dates,
+      bottom-left: degree,
+      bottom-right: location,
     )
   }
 }
@@ -176,9 +176,9 @@
   location: "",
 ) = {
   generic-two-by-two(
-    top-left: strong(title),
+    top-left: strong(company),
     top-right: dates,
-    bottom-left: company,
+    bottom-left: title,
     bottom-right: emph(location),
   )
 }
@@ -222,7 +222,7 @@
   ]
 }
 
-#let extracurriculars(
+#let Leadership(
   activity: "",
   dates: "",
 ) = {

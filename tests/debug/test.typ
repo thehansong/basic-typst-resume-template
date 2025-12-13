@@ -28,7 +28,7 @@
 * #edu(dates: "", degree: "", gpa: "", institution: "", location: "")
 * #work(company: "", dates: "", location: "", title: "")
 * #project(dates: "", name: "", role: "", url: "")
-* #extracurriculars(activity: "", dates: "")
+* #Leadership(activity: "", dates: "")
 * There are also the following generic functions that don't apply any formatting
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
@@ -99,9 +99,9 @@
   - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
 - Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
 
-== Extracurricular Activities
+== Leadership
 
-#extracurriculars(
+#Leadership(
   activity: "Capture The Flag Competitions",
   dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
 )
@@ -110,7 +110,7 @@
   - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
 - Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
 
-// #extracurriculars(
+// #Leadership(
 //   activity: "Science Olympiad Volunteering",
 //   dates: "Sep 2023 --- Present"
 // )
