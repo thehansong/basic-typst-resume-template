@@ -1,4 +1,5 @@
 #import "@preview/scienceicons:0.1.0": orcid-icon
+#import "icons.typ": *
 
 #let resume(
   author: "",
@@ -59,48 +60,46 @@
     fill: rgb(accent-color),
   )
 
-  // Name will be aligned left, bold and big
-  show heading.where(level: 1): it => [
-    #set align(author-position)
-    #set text(
-      weight: 700,
-      size: author-font-size,
-    )
-    #pad(it.body)
-  ]
-
-  // Level 1 Heading
-  [= #(author)]
-
-  // Personal Info Helper
-  let contact-item(value, prefix: "", link-type: "") = {
+  // Header Layout
+  let icon(func) = {
+    box(width: 8pt, height: 8pt, func(fill: rgb(accent-color)))
+  }
+  
+  let contact-item(value, icon-func, link-type: "", prefix: "") = {
     if value != "" {
-      if link-type != "" {
-        link(link-type + value)[#(prefix + value)]
-      } else {
-        value
-      }
+      stack(dir: ltr, spacing: 0.5em,
+        if link-type != "" {
+          link(link-type + value)[#(prefix + value)]
+        } else {
+          value
+        },
+        icon(icon-func)
+      )
     }
   }
 
-  // Personal Info
-  pad(
-    top: 0.25em,
-    align(personal-info-position)[
-      #{
-        let items = (
-          contact-item(pronouns),
-          contact-item(phone),
-          contact-item(location),
-          contact-item(email, link-type: "mailto:"),
-          contact-item(github, link-type: "https://"),
-          contact-item(linkedin, link-type: "https://"),
-          contact-item(personal-site, link-type: "https://"),
-          contact-item(orcid, prefix: [#orcid-icon(color: rgb("#AECD54"))orcid.org/], link-type: "https://orcid.org/"),
-        )
-        items.filter(x => x != none).join("  |  ")
-      }
+  grid(
+    columns: (1fr, auto, auto),
+    gutter: 15pt,
+    align(left + horizon)[
+      #text(weight: 700, size: author-font-size)[#author]
     ],
+    align(right + horizon)[
+      #set text(size: 9pt)
+      #stack(dir: ttb, spacing: 0.4em,
+        contact-item(location, fa-globe, prefix: "Nationality: "),
+        contact-item(phone, fa-phone),
+      )
+    ],
+    align(right + horizon)[
+      #set text(size: 9pt)
+      #stack(dir: ttb, spacing: 0.4em,
+        contact-item(email, fa-envelope, link-type: "mailto:"),
+        contact-item(github, fa-github, link-type: "https://"),
+        contact-item(linkedin, fa-linkedin, link-type: "https://"),
+        contact-item(personal-site, fa-globe, link-type: "https://"),
+      )
+    ]
   )
 
   // Main body.
