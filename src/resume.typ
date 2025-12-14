@@ -168,7 +168,7 @@
     // edu-constant style (dates top-right, location bottom-right)
     generic-two-by-two(
       top-left: strong(institution),
-      top-right: dates,
+      top-right: (strong(dates)),
       bottom-left: emph(degree),
       bottom-right: emph(location),
     )
@@ -176,7 +176,7 @@
     // original edu style (location top-right, dates bottom-right)
     generic-two-by-two(
       top-left: strong(institution),
-      top-right: dates,
+      top-right: strong(dates),
       bottom-left: degree,
       bottom-right: location,
     )
@@ -191,9 +191,9 @@
 ) = {
   generic-two-by-two(
     top-left: strong(company),
-    top-right: dates,
+    top-right: strong(dates),
     bottom-left: title,
-    bottom-right: emph(location),
+    bottom-right: location,
   )
 }
 
