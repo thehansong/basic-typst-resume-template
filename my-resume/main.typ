@@ -103,18 +103,20 @@
 #align(center)[
   #{
     show link: it => it
+    show underline: it => it.body
     
     link("https://" + linkedin)[
       #box(
-        fill: rgb("#0077B5"),
-        radius: 20pt,
-        inset: (x: 1.2em, y: 0.6em),
+        fill: gradient.linear(rgb("#0077b5"), rgb("#4e9cd6"), angle: 0deg),
+        stroke: 1.5pt + rgb("#69a1e0"),
+        radius: 50pt,
+        inset: (x: 1.0em, y: 0.4em),
       )[
         #stack(
           dir: ltr,
           spacing: 0.6em,
-          align(horizon)[#box(height: 1.1em, fa-linkedin(fill: white))],
-          align(horizon)[#text(fill: white, weight: "bold")[View complete work history]],
+          align(horizon)[#box(height: 1.5em, fa-linkedin-in(fill: white))],
+          align(horizon)[#text(fill: white, weight: "regular", font: "Arial")[View complete work history]],
           align(horizon)[#box(height: 0.9em, fa-external-link-alt(fill: white))]
         )
       ]
