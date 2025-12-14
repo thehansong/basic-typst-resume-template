@@ -55,7 +55,7 @@
 // - Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
 // - Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
 
-#edu(
+/* #edu(
   institution: "The Wharton School — University of Pennsylvania",
   location: "Philadelphia, PA (Remote from Singapore)",
   dates: dates-helper(start-date: "Aug 2025", end-date: "Oct 2025"),
@@ -64,6 +64,7 @@
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
+*/
 
 == Work Experience
 
@@ -73,9 +74,9 @@
   title: "AI Solutions Engineer",
   location: "Singapore (Remote)",
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Drove technical wins through solution design of Agentic AI pipelines (Python, LangChain, RAG) across AWS and GCP. Led 4 engagements, validating AI architectures to accelerate digital transformation.
+- Collaborated with customers on multilingual prompt test suites (200+ cases), identifying localisation gaps. Contributed to product strategy by communicating feedback to improve response quality by 10–15%\*.
+- Designed intelligent, scalable solutions for multimodal reasoning on GCP, supporting 3 regional initiatives. Communicated customer feedback to inform competitor strategies and drive product updates.
 
 #work(
   company: "GovTech Singapore",
@@ -83,9 +84,9 @@
   title: "AI Engineer Intern",
   location: "Singapore",
 )
-- Taught robots to predict when (and how much!) humans will empty their wallets at the doctor's office
-- Developed HIPAA-compliant digital signatures, because doctors' handwriting wasn't illegible enough already
-- Turned spaghetti code into a gourmet dish, making other interns drool with envy
+- Led 10+ technology demonstrations (POCs) at major public sector events, engaging 50+ agencies. Validated product performance for stakeholders, driving adoption of automated accessibility/AI solutions.
+- Spearheaded Oobee AI development (Python, RAG, Open Source LLMs) to automate accessibility workflows. Designed intelligent solutions that reduced manual effort by 50–60%\* via code-ready fixes.
+- Architected scalable GenAI inference on AWS (SageMaker), supporting multi-quarter rollouts. Guided partners on best practices for scalability, processing 500 scans/week with 15%\* higher accuracy.
 
 #work(
   company: "GovTech Singapore",
@@ -93,19 +94,33 @@
   title: "Full-Stack Software Engineer Intern",
   location: "Singapore",
 )
-- Scaled user base from 10 to 2000+, accidentally becoming a small wealthy nation in the process
-- Crafted Bash scripts so clever they occasionally made other engineers weep with joy
-- Automated support responses, reducing human interaction to a level that would make introverts proud
-- Built a documentation site that actually got read, breaking the ancient RTFM curse
+- Partnered with cross-functional teams to drive #link("https://www.oobee.tech.gov.sg/")[Oobee Web] adoption across 98 agencies. Contributed to product strategy by refining user flows for 11M+ accessibility issues.
+- Developed accessible React interfaces and secure Node.js scanning pipelines (REST/WebSocket). Optimized distributed systems to reduce report latency by 20–25%\*, ensuring real-time performance.
+- Architected scalable AWS solutions (Terraform, EC2, RDS) with robust security protocols. Improved platform reliability by 30%\* through automated CI/CD and monitoring.
 
-#work(
-  company: "Stealth Startup (Fintech)",
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
-  title: "Software Engineer Intern",
-  location: "San Francisco, CA",
-)
-- Developed a cross-platform mobile app that turned every user into a potential paparazzi
-- Led a security overhaul, heroically saving the company from the menace of "password123"
+#let accent-color = rgb("#26428b")
+
+#align(center)[
+  #{
+    show link: it => it
+    
+    link("https://" + linkedin)[
+      #box(
+        fill: rgb("#0077B5"),
+        radius: 20pt,
+        inset: (x: 1.2em, y: 0.6em),
+      )[
+        #stack(
+          dir: ltr,
+          spacing: 0.6em,
+          align(horizon)[#box(height: 1.1em, fa-linkedin(fill: white))],
+          align(horizon)[#text(fill: white, weight: "bold")[View complete work history]],
+          align(horizon)[#box(height: 0.9em, fa-external-link-alt(fill: white))]
+        )
+      ]
+    ]
+  }
+]
 
 == Projects
 
