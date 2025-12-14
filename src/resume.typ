@@ -221,6 +221,49 @@
   )
 }
 
+#let project-neurotune(
+  name: "",
+  tech: "",
+  steam: "",
+  paper: "",
+  github: "",
+  youtube: "",
+) = {
+  // Helper to create an inline icon box with fixed height
+  let make-icon(func, color) = {
+    set image(height: 9pt)
+    box(baseline: 20%, func(fill: color))
+  }
+  
+  // Helper to create a link item: Icon + text with underline only on text
+  let layout-item(url, func, label, color) = {
+      // Icon link: remove underline style locally
+      {
+        show link: it => it
+        link("https://" + url)[#make-icon(func, color)]
+      }
+      h(3pt)
+      // Text link: keeps global underline style
+      link("https://" + url)[#emph(label)]
+  }
+
+  generic-one-by-two(
+    left: [
+      *#name* | #tech
+    ],
+    right: {
+       let parts = ()
+       if steam != "" { parts.push(layout-item(steam, fa-steam, "Steam", rgb("#2C3E50"))) }
+       if paper != "" { parts.push(layout-item(paper, fa-file-pdf, "Research Paper", black)) }
+       if github != "" { parts.push(layout-item(github, fa-github, "GitHub", black)) }
+       if youtube != "" { parts.push(layout-item(youtube, fa-youtube, "Demo", rgb("#FF0000"))) }
+       
+       // Join with a pipe separator with spacing
+       parts.join([ #h(4pt) | #h(4pt) ])
+    }
+  )
+}
+
 #let certificates(
   name: "",
   issuer: "",
