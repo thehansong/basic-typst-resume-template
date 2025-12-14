@@ -5,7 +5,7 @@
 #let location = "Singaporean"
 #let email = "thehansong@gmail.com"
 #let github = "github.com/thehansong"
-#let linkedin = "linkedin.com/in/thehansong/"
+#let linkedin = "linkedin.com/in/thehansong"
 #let phone = "+65 9868 9019"
 #let personal-site = "thehansong.com"
 

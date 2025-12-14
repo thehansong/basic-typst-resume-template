@@ -61,19 +61,24 @@
   )
 
   // Header Layout
-  let icon(func) = {
-    box(width: 8pt, height: 8pt, func(fill: rgb(accent-color)))
+  let icon(func, color: rgb(accent-color)) = {
+    box(width: 8pt, height: 8pt, func(fill: color))
   }
   
-  let contact-item(value, icon-func, link-type: "", prefix: "") = {
+  let contact-item(value, icon-func: none, link-type: "", prefix: "", is-bold: false, icon-color: rgb(accent-color)) = {
     if value != "" {
+      let display-value = if is-bold { strong(value) } else { value }
+      let content = if link-type != "" {
+        link(link-type + value)[#(prefix + display-value)]
+      } else {
+        [#(prefix + display-value)]
+      }
+      
       stack(dir: ltr, spacing: 0.5em,
-        if link-type != "" {
-          link(link-type + value)[#(prefix + value)]
-        } else {
-          value
+        if icon-func != none {
+          icon(icon-func, color: icon-color)
         },
-        icon(icon-func)
+        content
       )
     }
   }
@@ -84,20 +89,30 @@
     align(left + horizon)[
       #text(weight: 700, size: author-font-size)[#author]
     ],
-    align(right + horizon)[
+    align(left)[ // Middle column
       #set text(size: 9pt)
       #stack(dir: ttb, spacing: 0.4em,
-        contact-item(location, fa-globe, prefix: "Nationality: "),
-        contact-item(phone, fa-phone),
+        contact-item(location, icon-func: fa-passport, prefix: "Nationality: ", is-bold: true, icon-color: rgb("#0B3D91")),
+        contact-item(phone, icon-func: fa-phone, prefix: "Mobile: ", is-bold: true, icon-color: black),
+        stack(dir: ltr, spacing: 0.5em,
+          icon(fa-comments, color: rgb("#D97706")),
+          stack(dir: ltr, spacing: 0.5em,
+            [Languages: ],
+            stack(dir: ttb, spacing: 0.4em,
+              strong("English,"),
+              strong("Mandarin Chinese")
+            )
+          )
+        )
       )
     ],
-    align(right + horizon)[
+    align(left)[ // Right column - Left aligned so icons line up
       #set text(size: 9pt)
       #stack(dir: ttb, spacing: 0.4em,
-        contact-item(email, fa-envelope, link-type: "mailto:"),
-        contact-item(github, fa-github, link-type: "https://"),
-        contact-item(linkedin, fa-linkedin, link-type: "https://"),
-        contact-item(personal-site, fa-globe, link-type: "https://"),
+        contact-item(linkedin, icon-func: fa-linkedin, link-type: "https://", icon-color: rgb("#0077B5")),
+        contact-item(github, icon-func: fa-github, link-type: "https://", icon-color: rgb("#000000")),
+        contact-item(personal-site, icon-func: fa-globe, link-type: "https://", icon-color: rgb("#0563C1")),
+        contact-item(email, icon-func: fa-envelope, link-type: "mailto:", icon-color: rgb("#CE1126")),
       )
     ]
   )
