@@ -139,7 +139,7 @@
   - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
 - Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers */
 
-#project-neurotune(
+/* #project-neurotune(
   name: "NeuroTune",
   tech: "Unity, C#, AI, Machine Learning, HCI",
   steam: "https://steamcommunity.com/games/714010/announcements/detail/6470072677790935150",
@@ -148,8 +148,19 @@
   youtube: "https://youtu.be/4m7v8S-D6N8"
 )
 - Pitched to and adopted by Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) as Adaptive Tasks; integrated in September 2024, reaching a global player base of *40M+ users*.
-- Developed NeuroTune, an AI-powered FPS aim trainer in Unity, C\# that adapts target size, spawn, and timing in real-time based on player performance to deliver personalized training in a 3D environment.
+- Developed NeuroTune, an AI-powered FPS aim trainer in Unity, C\# that adapts target size, spawn, and timing in real-time based on player performance to deliver personalized training in a 3D environment. */
 
+
+
+#project-neurotune(
+  name: "NeuroTune",
+  tech: "Unity, C#, AI, Machine Learning, HCI",
+  steam: "https://steamcommunity.com/games/714010/announcements/detail/6470072677790935150",
+  paper: "https://www.thehansong.com/assets/paper/NeuroTune_Paper.pdf",
+  github: "https://github.com/thehansong/NeuroTune",
+  youtube: "https://youtu.be/4m7v8S-D6N8"
+)
+- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\$1.5M+* in incremental revenue in Q4 2024.
 
 == Leadership
 

@@ -240,11 +240,11 @@
       // Icon link: remove underline style locally
       {
         show link: it => it
-        link("https://" + url)[#make-icon(func, color)]
+        link(url)[#make-icon(func, color)]
       }
       h(3pt)
       // Text link: keeps global underline style
-      link("https://" + url)[#emph(label)]
+      link(url)[#emph(label)]
   }
 
   generic-one-by-two(
