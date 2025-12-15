@@ -122,7 +122,7 @@
 
   // Main body.
   set par(justify: true)
-  set list(spacing: 0.8em)
+  set list(spacing: 0.84em)
 
   body
 }
