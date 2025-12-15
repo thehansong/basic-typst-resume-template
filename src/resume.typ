@@ -83,6 +83,7 @@
     }
   }
 
+  v(8pt)
   grid(
     columns: (1fr, auto, auto),
     gutter: 15pt,
@@ -118,7 +119,7 @@
   )
 
   // Reduce gap between header and body
-  v(-10pt)
+  v(-18pt)
 
   // Main body.
   set par(justify: true)
