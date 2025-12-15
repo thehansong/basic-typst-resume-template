@@ -117,6 +117,9 @@
     ]
   )
 
+  // Reduce gap between header and body
+  v(-10pt)
+
   // Main body.
   set par(justify: true)
 
