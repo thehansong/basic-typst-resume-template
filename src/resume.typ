@@ -88,6 +88,7 @@
     columns: (1fr, auto, auto),
     gutter: 15pt,
     align(left + horizon)[
+      #v(-13pt)
       #text(weight: 700, size: author-font-size)[#author]
     ],
     align(left)[ // Middle column
