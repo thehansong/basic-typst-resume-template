@@ -80,7 +80,7 @@
 
 #work(
   company: "GovTech Singapore",
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
   title: "AI Engineer Intern",
   location: "Singapore",
 )
@@ -90,7 +90,7 @@
 
 #work(
   company: "GovTech Singapore",
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  dates: dates-helper(start-date: "May 2025", end-date: "Sep 2025"),
   title: "Full-Stack Software Engineer Intern",
   location: "Singapore",
 )
@@ -110,7 +110,7 @@
         fill: gradient.linear(rgb("#0077b5"), rgb("#4e9cd6"), angle: 0deg),
         stroke: 1.5pt + rgb("#69a1e0"),
         radius: 50pt,
-        inset: (x: 1.0em, y: 0.4em),
+        inset: (x: 0.5em, y: 0.10em),
       )[
         #stack(
           dir: ltr,
@@ -164,26 +164,23 @@
 == Leadership
 
 #Leadership(
-  activity: "Capture The Flag Competitions",
-  dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
+  activity: "Google Developer Student Clubs (GDSC) | SIT Geeks",
+  dates: dates-helper(start-date: "Jan 2023", end-date: "Feb 2024"),
 )
-- Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
-- Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
-  - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
-- Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
 
-// #Leadership(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
+- As Technical Lead, I hosted and led *10+* hands-on technical workshops for over *\~1,000+* students across 
+  #link("https://www.linkedin.com/posts/thehansong_python-datascience-techforgood-activity-7104795440499331072-R0HL")[Python], 
+  #link("https://www.linkedin.com/posts/thehansong_figma-figmaworkshop2024-designthinking-activity-7156435727944220672-Z8Kr")[Figma],
+  Git/GitHub, AWS, Google Firebase, Google Cloud, and AI platforms, guiding participants through real-world use cases, system designs.
+- As External Development Lead, I worked with internal stakeholders and external industry partners such as *Google*, *Amazon*, *Workato* and others to design technical programs, pitch value propositions, and secure *\~USD \$23,000+* in sponsorships to scale solution enablement initiatives.
 
-// #certificates(
-//   name: "OSCP",
-//   issuer: "Offensive Security",
-//   // url: "",
-//   date: "Oct 2024",
-// )
+
+/* #certificates(
+  name: "OSCP",
+  issuer: "Offensive Security",
+  // url: "",
+  date: "Oct 2024",
+) */
 
 == Skills
 - *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart

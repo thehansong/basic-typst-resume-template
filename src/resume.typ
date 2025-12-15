@@ -37,7 +37,7 @@
 
   // Reccomended to have 0.5in margin on all sides
   set page(
-    margin: (0.5in),
+    margin: (x: 0.4in, y: 0.15in),
     paper: paper,
   )
 
@@ -285,6 +285,6 @@
 ) = {
   generic-one-by-two(
     left: strong(activity),
-    right: dates,
+    right: strong(dates),
   )
 }
