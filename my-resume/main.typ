@@ -47,7 +47,7 @@
   institution: "Singapore Institute of Technology & DigiPen Institute of Technology",
   location: "Singapore & Redmond, WA",
   dates: dates-helper(start-date: "Aug 2022", end-date: "Apr 2026"),
-  degree: "Bachelor's of Science, Computer Science in Real-Time Interactive Simulation (RTIS)",
+  degree: "Bachelor of Science (Hons.) in Computer Science in Real-Time Interactive Simulation (RTIS)",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
@@ -70,13 +70,13 @@
 
 #work(
   company: "Uber Technologies, Inc.",
-  dates: dates-helper(start-date: "May 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
   title: "AI Solutions Engineer",
   location: "Singapore (Remote)",
 )
-- Drove technical wins through solution design of Agentic AI pipelines (Python, LangChain, RAG) across AWS and GCP. Led 4 engagements, validating AI architectures to accelerate digital transformation.
-- Collaborated with customers on multilingual prompt test suites (200+ cases), identifying localisation gaps. Contributed to product strategy by communicating feedback to improve response quality by 10–15%\*.
-- Designed intelligent, scalable solutions for multimodal reasoning on GCP, supporting 3 regional initiatives. Communicated customer feedback to inform competitor strategies and drive product updates.
+- Delivered technical consulting for enterprise clients including Shopee, PETRONAS, and Trip.com Group as part of the Uber AI Solutions (Data Team), partnering with pre-sales and enterprise sales teams to design, demo, and deliver AI Ads solutions and early-stage POCs across APAC, supporting 3 enterprise accounts and contributing to *\$X* millions–dollar deal pipelines.
+
+- Defined and evaluated AI Ads success metrics, with average results indicating *\~5–10%* CTR uplift and *\~3–7%* improvement in conversion propensity, while reducing creative iteration cycles from weeks to days and lowering the average cost of launching new ad campaigns by *\~20–30%* through Uber's proprietary AI Ads.
 
 #work(
   company: "GovTech Singapore",
@@ -84,19 +84,36 @@
   title: "AI Engineer Intern",
   location: "Singapore",
 )
-- Led 10+ technology demonstrations (POCs) at major public sector events, engaging 50+ agencies. Validated product performance for stakeholders, driving adoption of automated accessibility/AI solutions.
-- Spearheaded Oobee AI development (Python, RAG, Open Source LLMs) to automate accessibility workflows. Designed intelligent solutions that reduced manual effort by 50–60%\* via code-ready fixes.
-- Architected scalable GenAI inference on AWS (SageMaker), supporting multi-quarter rollouts. Guided partners on best practices for scalability, processing 500 scans/week with 15%\* higher accuracy.
+
+- Led and delivered *30+* technical demos, proof of concepts (POCs), and solution walkthroughs at major public sector events to *50+* government agencies and partners across industry and internal forums, helping technical and non-technical stakeholders evaluate and adopt 
+  #link("https://github.com/GovTechSG/oobee")[Oobee], 
+  #link("https://www.oobee.tech.gov.sg/")[Oobee Web], 
+  and Oobee AI for automated accessibility triage and compliance workflows.
+
+- Spearheaded the system design and development of Oobee AI, an AI-powered accessibility assistant that interprets Oobee Reports and generates production-ready accessible solutions using Python and *Microsoft Azure AI Foundry*, leveraging NLP with a RAG architecture (LangChain, LangSmith, Pinecone) and quality validation via automated evals pipelines.
+
+- Oobee AI increased WCAG compliance across Singapore government websites by *\~15%*, reducing manual interpretation effort by *\~50–60%*, and saving *\~10,000+* public-officer hours, with estimated cost savings of *\~USD \$2M+* over *Q4 2025*.
 
 #work(
   company: "GovTech Singapore",
   dates: dates-helper(start-date: "May 2025", end-date: "Sep 2025"),
-  title: "Full-Stack Software Engineer Intern",
+  title: "Software Engineer Intern",
   location: "Singapore",
 )
-- Partnered with cross-functional teams to drive #link("https://www.oobee.tech.gov.sg/")[Oobee Web] adoption across 98 agencies. Contributed to product strategy by refining user flows for 11M+ accessibility issues.
+
+- Supported the end-to-end full-stack and AI development of #link("https://www.oobee.tech.gov.sg/")[Oobee Web], an open-source web accessibility scanning platform that automates WCAG compliance checks for software teams, adopted by *98* government agencies to scan *800K+* pages and identify *11M+* accessibility barriers as of *Q3, 2025*.
+/* - Partnered with cross-functional teams to drive #link("https://www.oobee.tech.gov.sg/")[Oobee Web] adoption across 98 agencies. Contributed to product strategy by refining user flows for 11M+ accessibility issues.
 - Developed accessible React interfaces and secure Node.js scanning pipelines (REST/WebSocket). Optimized distributed systems to reduce report latency by 20–25%\*, ensuring real-time performance.
-- Architected scalable AWS solutions (Terraform, EC2, RDS) with robust security protocols. Improved platform reliability by 30%\* through automated CI/CD and monitoring.
+- Architected scalable AWS solutions (Terraform, EC2, RDS) with robust security protocols. Improved platform reliability by 30%\* through automated CI/CD and monitoring. */
+
+/* #work(
+  company: "Stealth Startup",
+  dates: dates-helper(start-date: "Jan 2025", end-date: "Apr 2025"),
+  title: "Member of Technical Staff Intern",
+  location: "San Francisco, CA",
+)
+- Fintech
+*/
 
 #let accent-color = rgb("#26428b")
 
@@ -159,7 +176,7 @@
   github: "https://github.com/thehansong/NeuroTune",
   youtube: "https://youtu.be/4m7v8S-D6N8"
 )
-- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *\~40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\~\$1.5M+* in incremental revenue in *Q4 2024*.
+- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *\~40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\~USD \$1.5M+* in incremental revenue in *Q4 2024*.
 
 == Leadership
 
@@ -167,12 +184,11 @@
   activity: "Google Developer Student Clubs (GDSC) | SIT Geeks",
   dates: dates-helper(start-date: "Jan 2023", end-date: "Feb 2024"),
 )
-
 - As Technical Lead, I hosted and led *10+* hands-on technical workshops for over *\~1,000+* students across 
   #link("https://www.linkedin.com/posts/thehansong_python-datascience-techforgood-activity-7104795440499331072-R0HL")[Python], 
   #link("https://www.linkedin.com/posts/thehansong_figma-figmaworkshop2024-designthinking-activity-7156435727944220672-Z8Kr")[Figma],
   Git/GitHub, AWS, Google Firebase, Google Cloud, and AI platforms, guiding participants through real-world use cases, system designs.
-- As External Development Lead, I worked with internal stakeholders and external industry partners such as *Google*, *Amazon*, *Workato* and others to design technical programs, pitch value propositions, and secure *\~USD \$23,000+* in sponsorships to scale solution enablement initiatives.
+- As External Development Lead, I worked with internal stakeholders and external industry partners such as *Google*, *Amazon*, *Workato* and others to design technical programs, pitch value propositions, and secure *\~USD \$23K+* in sponsorships to scale solution enablement initiatives.
 
 
 /* #certificates(
@@ -183,5 +199,5 @@
 ) */
 
 == Skills
-- *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
+- *Programming Languages*: Python, C/C++, C\#, Go, TypeScript, JavaScript, HTML/CSS, SQL
 - *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
