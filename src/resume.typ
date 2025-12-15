@@ -37,7 +37,7 @@
 
   // Reccomended to have 0.5in margin on all sides
   set page(
-    margin: (x: 0.4in, y: 0.15in),
+    margin: (x: 0.4in, y: 0.10in),
     paper: paper,
   )
 
@@ -122,6 +122,7 @@
 
   // Main body.
   set par(justify: true)
+  set list(spacing: 0.8em)
 
   body
 }

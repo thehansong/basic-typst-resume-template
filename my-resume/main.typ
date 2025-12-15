@@ -75,7 +75,6 @@
   location: "Singapore (Remote)",
 )
 - Delivered technical consulting for enterprise clients including Shopee, PETRONAS, and Trip.com Group as part of the Uber AI Solutions (Data Team), partnering with pre-sales and enterprise sales teams to design, demo, and deliver AI Ads solutions and early-stage POCs across APAC, supporting 3 enterprise accounts and contributing to *\$X* millions–dollar deal pipelines.
-
 - Defined and evaluated AI Ads success metrics, with average results indicating *\~5–10%* CTR uplift and *\~3–7%* improvement in conversion propensity, while reducing creative iteration cycles from weeks to days and lowering the average cost of launching new ad campaigns by *\~20–30%* through Uber's proprietary AI Ads.
 
 #work(
@@ -84,14 +83,11 @@
   title: "AI Engineer Intern",
   location: "Singapore",
 )
-
 - Led and delivered *30+* technical demos, proof of concepts (POCs), and solution walkthroughs at major public sector events to *50+* government agencies and partners across industry and internal forums, helping technical and non-technical stakeholders evaluate and adopt 
   #link("https://github.com/GovTechSG/oobee")[Oobee], 
   #link("https://www.oobee.tech.gov.sg/")[Oobee Web], 
   and Oobee AI for automated accessibility triage and compliance workflows.
-
 - Spearheaded the system design and development of Oobee AI, an AI-powered accessibility assistant that interprets Oobee Reports and generates production-ready accessible solutions using Python and *Microsoft Azure AI Foundry*, leveraging NLP with a RAG architecture (LangChain, LangSmith, Pinecone) and quality validation via automated evals pipelines.
-
 - Oobee AI increased WCAG compliance across Singapore government websites by *\~15%*, reducing manual interpretation effort by *\~50–60%*, and saving *\~10,000+* public-officer hours, with estimated cost savings of *\~USD \$2M+* over *Q4 2025*.
 
 #work(
@@ -100,20 +96,19 @@
   title: "Software Engineer Intern",
   location: "Singapore",
 )
-
-- Supported the end-to-end full-stack and AI development of #link("https://www.oobee.tech.gov.sg/")[Oobee Web], an open-source web accessibility scanning platform that automates WCAG compliance checks for software teams, adopted by *98* government agencies to scan *800K+* pages and identify *11M+* accessibility barriers as of *Q3, 2025*.
+- Supported the end-to-end full-stack and AI development of #link("https://www.oobee.tech.gov.sg/")[Oobee Web], an open-source web accessibility scanning platform that automates WCAG compliance checks for software teams, adopted by *98* government agencies to scan *800K+* pages and identify *11M+* accessibility barriers as of *Q3, 2025* using React, Node.js, TypeScript, JavaScript, REST APIs, WebSockets, AWS (EC2, S3, ECS, SQS, ECR, RDS, CloudFront), Terraform, Cloudflare, Amplitude.
 /* - Partnered with cross-functional teams to drive #link("https://www.oobee.tech.gov.sg/")[Oobee Web] adoption across 98 agencies. Contributed to product strategy by refining user flows for 11M+ accessibility issues.
 - Developed accessible React interfaces and secure Node.js scanning pipelines (REST/WebSocket). Optimized distributed systems to reduce report latency by 20–25%\*, ensuring real-time performance.
 - Architected scalable AWS solutions (Terraform, EC2, RDS) with robust security protocols. Improved platform reliability by 30%\* through automated CI/CD and monitoring. */
 
-/* #work(
+#work(
   company: "Stealth Startup",
   dates: dates-helper(start-date: "Jan 2025", end-date: "Apr 2025"),
   title: "Member of Technical Staff Intern",
   location: "San Francisco, CA",
 )
-- Fintech
-*/
+- Signed NDA. A fintech startup impacting NASDAQ & NYSE; contributed to scalable payment systems and API integrations.
+
 
 #let accent-color = rgb("#26428b")
 
@@ -141,6 +136,7 @@
   }
 ]
 
+#v(-12pt)
 == Projects
 
 /* #project(
@@ -187,9 +183,8 @@
 - As Technical Lead, I hosted and led *10+* hands-on technical workshops for over *\~1,000+* students across 
   #link("https://www.linkedin.com/posts/thehansong_python-datascience-techforgood-activity-7104795440499331072-R0HL")[Python], 
   #link("https://www.linkedin.com/posts/thehansong_figma-figmaworkshop2024-designthinking-activity-7156435727944220672-Z8Kr")[Figma],
-  Git/GitHub, AWS, Google Firebase, Google Cloud, and AI platforms, guiding participants through real-world use cases, system designs.
-- As External Development Lead, I worked with internal stakeholders and external industry partners such as *Google*, *Amazon*, *Workato* and others to design technical programs, pitch value propositions, and secure *\~USD \$23K+* in sponsorships to scale solution enablement initiatives.
-
+  Git/GitHub, AWS, Google Firebase, Google Cloud, and AI technologies and how to apply them in real-world scenarios!
+- As External Development Lead, partnered with internal stakeholders and industry partners such as *Google*, *Amazon*, *Workato*, and others to design technical programs, pitching value propositions to secure *\~USD \$23K+* in sponsorships.
 
 /* #certificates(
   name: "OSCP",
@@ -200,4 +195,4 @@
 
 == Skills
 - *Programming Languages*: Python, C/C++, C\#, Go, TypeScript, JavaScript, HTML/CSS, SQL
-- *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
+- *Technologies*: LLMs, LangChain, RAG, Prompt Engineering, Fine Tunning, Azure Foundary, Vector DB, LLM-as-a-judge
