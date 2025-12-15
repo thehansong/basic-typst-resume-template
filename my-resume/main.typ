@@ -148,9 +148,8 @@
   youtube: "https://youtu.be/4m7v8S-D6N8"
 )
 - Pitched to and adopted by Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) as Adaptive Tasks; integrated in September 2024, reaching a global player base of *40M+ users*.
-- Developed NeuroTune, an AI-powered FPS aim trainer in Unity, C\# that adapts target size, spawn, and timing in real-time based on player performance to deliver personalized training in a 3D environment. */
-
-
+- Developed NeuroTune, an AI-powered FPS aim trainer in Unity, C\# that adapts target size, spawn, and timing in real-time based on player performance to deliver personalized training in a 3D environment.
+*/
 
 #project-neurotune(
   name: "NeuroTune",
@@ -160,7 +159,7 @@
   github: "https://github.com/thehansong/NeuroTune",
   youtube: "https://youtu.be/4m7v8S-D6N8"
 )
-- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\$1.5M+* in incremental revenue in Q4 2024.
+- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *\~40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\~\$1.5M+* in incremental revenue in *Q4 2024*.
 
 == Leadership
 
