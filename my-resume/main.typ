@@ -74,7 +74,7 @@
   title: "AI Solutions Engineer",
   location: "Singapore (Remote)",
 )
-- Delivered technical consulting to enterprise clients *(Shopee*, *PETRONAS*, and *Trip.com Group)*, by partnering with Pre-Sales, Solutions Engineers and Customer Success Managers to design, demo, and deliver AI Ads *proof of concept (POCs)* across JAPAC, supporting *3 enterprise accounts* at *\~USD\$2–3M+* deal valuation across *Q4, 2025* to *Q1 2026*.
+- Delivered technical consulting to enterprise clients *(Shopee*, *PETRONAS*, and *Trip.com Group)*, by partnering with Pre-Sales, Solutions Engineers, and Customer Success Managers to design, demo, and deliver AI Ads *proof of concept (POCs)* across JAPAC, supporting *3 enterprise accounts* at *\~USD\$2–3M+* deal valuation across *Q4, 2025* to *Q1, 2026*.
 - Led AI Ads success metric definition, achieving *\~5–10\%* CTR uplift, *\~3–7\%* conversion improvement, and *\~20–30\%* reduction in campaign and creative iteration costs via Uber’s proprietary AI Ads.
 
 #work(
@@ -88,7 +88,7 @@
   #link("https://www.oobee.tech.gov.sg/")[Oobee Web], 
   and Oobee AI for automated accessibility triage and compliance in their workflows.
 - Spearheaded the system design and development of Oobee AI, an AI-powered accessibility assistant that interprets Oobee Reports and generates production-ready accessible solutions using Python and *Microsoft Azure AI Foundry*, leveraging NLP, fine-tuning with RAG (LangChain, LangSmith, Pinecone) and quality validation via automated evals pipelines.
-- Oobee AI increased WCAG compliance across Singapore government websites by *\~15%*, reducing manual interpretation effort by *\~50–60%*, and saving *\~10,000+* public-officer hours, with estimated cost savings of *\~USD\$2M+* over *Q4 2025*.
+- Oobee AI increased WCAG compliance across Singapore government websites by *\~15%*, reducing manual interpretation effort by *\~50–60%*, and saving *\~10,000+* public-officer hours, with estimated cost savings of *\~USD\$2M+* over *Q4, 2025*.
 
 #work(
   company: "GovTech Singapore",
@@ -172,7 +172,7 @@
   github: "https://github.com/thehansong/NeuroTune",
   youtube: "https://youtu.be/4m7v8S-D6N8"
 )
-- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) founders in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *\~40M+ users* with *\~2.5M Monthly Active Users (MAU)*, and generated *\~USD\$1.5M+* in incremental revenue in *Q4 2024*.
+- Pitched and demoed NeuroTune’s *proof of concept (POC)*, an AI-powered FPS aim trainer built in Unity (C\#) to Statespace (creators of #link("https://store.steampowered.com/app/714010/Aimlabs/")[AimLabs]) founders in Seattle, WA, translating a market gap in personalized training into measurable product value. The initiative secured a *technical win*, shipped to production in September 2024, scaled to *\~40M+ users* with *\~2.5M+ Monthly Active Users (MAU)*, and generated *\~USD\$1.5M+* in incremental revenue in *Q4, 2024*.
 
 == Leadership
 
